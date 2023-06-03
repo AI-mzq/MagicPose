@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="mzq_openmmlab_P2023" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="mzq_openmmlab_P2023">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/MagicPose" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
