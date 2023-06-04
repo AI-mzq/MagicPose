@@ -1,6 +1,6 @@
 ## MagicPose
 
-v1.0.1
+v1.1.0
 
 简介
 - 基于openmmlab_mmpose库，构建人体关键点检测模型！！！
@@ -43,13 +43,13 @@ python demo/video_demo.py \
 python tools/train.py weights_cfg/ear_cfg/rtmpose-s-ear.py
 # 评估
 python tools/test.py weights_cfg/ear_cfg/rtmpose-s-ear.py \
-                      work_dirs/epoch_200.pth
+                      work_dirs/epoch_300.pth
 # 推理
 python demo/topdown_demo_with_mmdet.py \
         weights_cfg/ear_cfg/rtmdet_tiny_ear.py \
         checkpoint/epoch_170.pth \
         weights_cfg/ear_cfg/rtmpose-s-ear.py \
-        checkpoint/epoch_99.pth \
+        checkpoint/epoch_300.pth \
         --input data/test_img1.jpeg \
         --output-root outputs/G2_RTMDet-RTMPose \
         --device cuda:0 \
