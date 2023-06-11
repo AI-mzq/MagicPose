@@ -1,10 +1,11 @@
 ## MagicPose
 
-v1.1.0
+v1.2.0
 
 简介
 - 基于openmmlab_mmpose库，构建人体关键点检测模型！！！
 - 实战项目：基于RTMPose的耳朵穴位关键点检测！！！
+- 新增实战项目：基于RTMDet的气球检测！！！MagicMMdetection/mzq_balloon_work3
 
 安装：
 ~~~
